@@ -1,0 +1,26 @@
+{
+    "camera_name": "Insta360_X5_Fisheye",
+    "image_size": [1920, 1080],
+    "camera_matrix": {
+        "rows": 3,
+        "cols": 3,
+        "data": [
+            613.72220522, 0.0, 962.00830736,
+            0.0, 613.83139029, 538.607195,
+            0.0, 0.0, 1.0
+        ]
+    },
+    "distortion_coefficients": {
+        "rows": 1,
+        "cols": 4,
+        "data": [
+            0.1468102,
+            -0.07494699,
+            0.05415681,
+            -0.0132643
+        ]
+    },
+    "model": "fisheye",
+    "calibration_date": "2025-10-22",
+    "notes": "Computed using OpenCV fisheye.calibrate (checkerboard calibration)"
+}

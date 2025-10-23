@@ -1,0 +1,17 @@
+# camera_name: insta360-X5 # ELP-USB16MP01-BL180-2048x1536
+# base_path: ./data
+# square_size: 0.025 # 2.5cm
+# num_checkboard_width_intersection: 10
+# num_checkboard_height_intersection: 7
+# HFoV: 180
+# VFoV: 150
+# extrinsic: True
+
+camera_name: insta360-X5 # ELP-USB16MP01-BL180-2048x1536
+base_path: ./data
+square_size: 0.05 # 2.5cm
+num_checkboard_width_intersection: 15
+num_checkboard_height_intersection: 10
+HFoV: 180
+VFoV: 150
+extrinsic: False

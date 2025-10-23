@@ -1,0 +1,27 @@
+{
+    "camera_name": "Insta360_X5",
+    "image_size": [1920, 1080],
+    "camera_matrix": {
+        "rows": 3,
+        "cols": 3,
+        "data": [
+            607.50474652, 0.0, 957.4755321,
+            0.0, 607.8220804, 541.39410119,
+            0.0, 0.0, 1.0
+        ]
+    },
+    "distortion_coefficients": {
+        "rows": 1,
+        "cols": 5,
+        "data": [
+            -0.176193729,
+            0.0298670897,
+            -0.000491100242,
+            0.0000809710773,
+            -0.00210814274
+        ]
+    },
+    "model": "pinhole",
+    "calibration_date": "2025-10-22",
+    "notes": "Computed from checkerboard calibration (OpenCV)"
+}
